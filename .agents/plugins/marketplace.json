@@ -1,0 +1,20 @@
+{
+  "name": "video-creation-public",
+  "interface": {
+    "displayName": "Video Creation Public"
+  },
+  "plugins": [
+    {
+      "name": "video-creation-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/video-creation-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
