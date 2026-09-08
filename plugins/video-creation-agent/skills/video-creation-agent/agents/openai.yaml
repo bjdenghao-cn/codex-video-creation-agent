@@ -1,0 +1,5 @@
+interface:
+  display_name: "视频创作助手"
+  short_description: "一句话或参考内容开始创作，衔接剧情、分镜、首帧提示词与可用生成工具"
+policy:
+  allow_implicit_invocation: true
