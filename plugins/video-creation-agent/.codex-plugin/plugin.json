@@ -1,0 +1,18 @@
+{
+  "name": "video-creation-agent",
+  "version": "1.0.0",
+  "description": "Provider-neutral, self-contained video creation workflows for Codex.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "视频创作助手 · 通用版",
+    "shortDescription": "自然语言创作剧情、分镜与视频提示词",
+    "longDescription": "Self-contained creative workflows with optional user-configured media tools.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "帮我做一个8秒搞笑视频，先写剧本。"
+  }
+}
